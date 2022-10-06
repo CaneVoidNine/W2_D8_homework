@@ -124,8 +124,8 @@ console.log(totalCars);
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-for (let i = 0; i < carsForSale; i++) {
-  console.log(i);
-  console.log(carsForSale[i]);
+for (let i = 0; i < carsForSale.length; i++) {
+  console.log("All cars for sale in shop: ", carsForSale[i]);
 }
+
 //not done yet!
